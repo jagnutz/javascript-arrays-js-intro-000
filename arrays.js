@@ -10,11 +10,11 @@ var tomatoSauceIngredients = ['tomato', 'garlic', 'olive oil', 'basil', 'oregano
 //to-do 1
 var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 //end of to-do
-function addElementToBeginningOfArray(element, array) {
+function addElementToBeginningOfArray(array, element) {
 return [element, ...array]
 }
 
-function destructivelyAddElementToBeginningOfArray(element, array) {
+function destructivelyAddElementToBeginningOfArray(array, element) {
 var array = array.unshift('element')
 return array
 }
